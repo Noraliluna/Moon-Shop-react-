@@ -33,9 +33,17 @@
   justify-content: center;
 }
 
-.cart-number{
+.cart-number, .number{
   display: flex;
   flex-direction: row;
+}
+
+.number{
+  color: black;
+  size: 2px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 33px;
 }
 
 .cart{
@@ -45,4 +53,5 @@
 
 .circle{
   position: relative;
+  margin-top: 4px;
 }

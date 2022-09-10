@@ -7,6 +7,7 @@ const CartWidget = () =>{
         <div className="cart-number">
             <BsCart className="cart"/>
             <BsFillCircleFill className="circle" />
+            <p className="number">1</p>
             
         </div>
     );
