@@ -55,3 +55,51 @@
   position: relative;
   margin-top: 4px;
 }
+
+.cards-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container{
+  background-color: black;
+  width: 10cm;
+  padding: 4px;
+  border-radius: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.image{
+  width: 5cm;
+  height: 6cm;
+  border-radius: 1rem;
+}
+
+.card-info{
+  color: aliceblue;
+}
+
+
+.count{
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.btn-dark{
+  background-color: black;
+  width: 1cm;
+  height: 0.8cm;
+  margin: 0 4px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
