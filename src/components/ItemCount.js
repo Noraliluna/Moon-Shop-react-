@@ -19,7 +19,7 @@ const ItemCount = () => {
         <div className="count">
             <button  className="btn btn-dark" onClick={handleRate}>+</button>{rate}
             <button  className="btn btn-dark" onClick={handleDelete}>-</button>
-            <button  className="AddWidget" onClick={Carro}>Agregar al carrito</button>
+            <button  className="AgregarCarrito" onClick={Carro}>Agregar al carrito</button>
         </div>
     )
 }

@@ -103,3 +103,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.AgregarCarrito{
+  border-radius: 1rem;
+  color: aliceblue;
+  background-color: black;
+}
