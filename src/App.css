@@ -109,3 +109,16 @@
   color: aliceblue;
   background-color: black;
 }
+.DeleteCard{
+  border-radius: 1rem;
+  color: black;
+  background-color: aliceblue;
+}
+
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}

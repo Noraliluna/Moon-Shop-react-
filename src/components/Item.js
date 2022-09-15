@@ -1,5 +1,6 @@
-const Card = ({id, title, description, thumbnail, colors, size, price, handleDelete}) =>{
-    return(
+
+const Item = ({id, title, description, thumbnail, colors, size, price, handleDelete}) => {
+    return (
         <div className="card-container">
             <div className="card-image">
                 <img className="image" src={thumbnail} alt="Same alt value"/>
@@ -11,9 +12,9 @@ const Card = ({id, title, description, thumbnail, colors, size, price, handleDel
                 <p>Precio: ${price}</p>
                 <p>Descripción: {description}</p>
             </div>
-            <button onClick={() => handleDelete(id)}>Delete Card</button>
+            <button className="DeleteCard" onClick={() => handleDelete(id)}>Delete Card</button>
         </div>
-    );
+    )
 }
 
-export default Card;
+export default Item;
