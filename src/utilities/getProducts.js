@@ -1,103 +1,128 @@
- const Products =[
+ const products =[
         {
             id: 1, 
-            title: "Pollera Mantel",
-            colors:"csdcsdc",
+            day: "Lunes",
+            title: "RAVIOLES CON SALSA ROJA",
+            colors:"Ravioles caseros de ricota",
             size: "fdfdfd",
             price: 1500,
-            thumbnail: "https://i.pinimg.com/564x/c4/33/0c/c4330caf67c714d6d52c83302ff4f7c2.jpg",
-            description:"cvfvfjdkf",
+            image: ["https://www.recetas-argentinas.com/base/stock/Recipe/47-image/47-image_web.jpg"],
+            description:"Receta ",
+            categoryId: 1,
         },
         {
             id:2,
-            title:"Campera adidas",
+            day: "Lunes",
+            title:"ALBONDIGAS CON ARROZ",
             colors:"csdcsdc",
             size:"fdfdfd",
             price:1500,
-            thumbnail:"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fe5310d80d6447faa4e0a92e00d74387_9366/Polera_con_Capucha_Essentials_3_Tiras_Negro_DP2419_01_laydown.jpg",
+            image:["https://1.bp.blogspot.com/-Pyz77sdHIwI/VwUioYgY9nI/AAAAAAAAEog/htXRfYNNrEgTUQBzWX_7LvgGdzY668w8ACPcB/s1600/arroz-con-albondigas.jpg"],
             description:"cvfvfjdkf",
+            categoryId: 1,
         },
         {
             id:3,
-            title:"Remera Adidas",
+            day: "Lunes",
+            title:"PASTEL DE PAPA + GUARNICIÓN",
             colors:"csdcsdc",
             size:"fdfdfd",
             price:1500,
-            thumbnail:"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c304ae0460e4b189f76ad9e011c149a_9366/Polo_de_algodon_Essentials_Print_Logo_Rosado_HA1224_21_model.jpg",
+            image:["https://www.gastrotradicional.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/12/pastel-de-papa-3.jpg.webp"],
             description:"cvfvfjdkf",
+            categoryId: 1,
         },
         {
             id:4,
-            title:"Vestido corset",
+            day: "Lunes",
+            title:"GUISO DE CERDO",
             colors:"csdcsdc",
             size:"fdfdfd",
             price:1500,
-            thumbnail:"https://i.pinimg.com/564x/5d/72/e6/5d72e6ebb85bfdd074af576c33228a57.jpg",
+            image:["https://www.paulinacocina.net/wp-content/uploads/2021/09/goulash-noodles-eat-food-image-1.jpg"],
             description:"cvfvfjdkf",
+            categoryId: 1,
         },
         {
             id:5,
-            title:"Blusa azul",
+            day: "Lunes",
+            title:"MARINERAS + GUARNICIÓN",
             colors:"csdcsdc",
             size:"fdfdfd",
             price:1500,
-            thumbnail:"https://i.pinimg.com/564x/4c/6a/79/4c6a7947261cf9211920fcf4315a05bd.jpg",
+            image:["https://img-global.cpcdn.com/recipes/6e5740207b58d02a/640x640sq70/photo.webp"],
             description:"cvfvfjdkf",
+            categoryId: 1,
         },
         {
             id:6,
-            title:"Top Deportivo negro",
+            day: "Lunes",
+            title:"ASADO A LA PARRILLA",
             colors:"csdcsdc",
             size:"fdfdfd",
             price:1500,
-            thumbnail:"https://i.pinimg.com/564x/43/c7/68/43c768c5c6fc4a6d618311e5933aa41d.jpg",
+            image:["https://locosxlaparrilla.com/wp-content/uploads/2015/02/Receta-recetas-locos-x-la-parrilla-locosxlaparrilla-receta-asado-salsa-criolla-asado-parrilla-asado-receta-asado-2.jpg"],
             description:"cvfvfjdkf",
+            categoryId: 2,
         },
         {
             id:7,
+            day: "Lunes",
             title:"Top Blanco",
             colors:"csdcsdc",
             size:"fdfdfd",
             price:1500,
-            thumbnail:"https://i.pinimg.com/564x/8f/3a/85/8f3a85df34034425a513b29eca34d1ed.jpg",
+            image:["https://www.fondodeolla.com/files/image/36/36191/60ca7ebed1bc3.jpg"],
             description:"cvfvfjdkf",
-    
+            categoryId: 2,
         },
         {
             id:8,
+            day: "Lunes",
             title:"Shorts Deportivo",
             colors:"csdcsdc",
             size:"fdfdfd",
             price:1500,
-            thumbnail:"https://i.pinimg.com/564x/4b/b2/fd/4bb2fd77dfab201b8254305d63bfbc26.jpg",
-            description:"cvfvfjdkf"
+            image:["https://vinomanos.com/wp-content/uploads/2021/03/pexels-engin-akyurt-3219483-min.jpg"],
+            description:"cvfvfjdkf",
+            categoryId: 2,
         },
         {
             id:9,
+            day: "Lunes",
             title:"Top Blanco Deportivo",
             colors:"csdcsdc",
             size:"fdfdfd",
             price:1500,
-            thumbnail:"https://i.pinimg.com/564x/a6/03/1d/a6031dcda91ced4a8856cd8cd2c3540b.jpg",
+            image:["https://almacenonline.com.ar/wp-content/uploads/2019/07/cocacola1.5.jpg"],
             description:"cvfvfjdkf",
+            categoryId: 3,
         },
         {
             id:10,
+            day: "Lunes",
             title:"Top Deportivo con cierres",
             colors:"csdcsdc",
             size:"fdfdfd",
             price:1500,
-            thumbnail:"https://i.pinimg.com/564x/e4/6b/ad/e46bad6e0b93a34a8451d5e22be71741.jpg",
-            description:"cvfvfjdkf"
+            image:["https://eyava.com/17236-large_default/gaseosa-seven-up-de-2-litros.jpg"],
+            description:"cvfvfjdkf",
+            categoryId: 3,
+        },
+        {
+            id:9,
+            day: "Lunes",
+            title:"Top Blanco Deportivo",
+            colors:"csdcsdc",
+            size:"fdfdfd",
+            price:1500,
+            image:["https://eyava.com/17234-home_default/gaseosa-pepsi-de-2-litros.jpg"],
+            description:"cvfvfjdkf",
+            categoryId: 3
         }
 ];
 
-const getList = () => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(Products);
-        }, 2000);
-    })
-}
 
-export default getList;
+export default {
+    products
+}

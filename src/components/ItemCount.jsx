@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { GiNotebook } from "react-icons/gi";
+
 
 const ItemCount = () => {
     const [rate, setRate] = useState(0);
@@ -19,7 +21,7 @@ const ItemCount = () => {
         <div className="count">
             <button  className="btn btn-dark" onClick={handleRate}>+</button>{rate}
             <button  className="btn btn-dark" onClick={handleDelete}>-</button>
-            <button  className="AgregarCarrito" onClick={Carro}>Agregar al carrito</button>
+            <button  className="AgregarCarrito" onClick={Carro}><GiNotebook /></button>
         </div>
     )
 }

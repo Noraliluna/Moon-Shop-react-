@@ -1,14 +1,9 @@
-import Navbar from './components/Navbar';
 import './App.css';
+import Home from "./pages/Home"
 import ItemListContainer from './components/ItemListContainer';
 
-function App() {
-  return (
-    <>
-      <Navbar />
-      <ItemListContainer greeting="Hello Coders!"/>
-    </>
-  );
-}
+const App = () => {
+  return (<Home />)
+};
 
 export default App;
